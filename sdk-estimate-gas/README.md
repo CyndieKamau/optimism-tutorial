@@ -36,6 +36,8 @@ This calculation is complicated by the fact that the major cost is the cost of w
 
    - `OPTIMISM_MAINNET_URL` is the URL for Optimism Mainnet, if you use [a different node provider](https://community.optimism.io/docs/useful-tools/providers/).
 
+   - `MARA_TESTNET_URL` is the Mara testnet RPC URL, i.e. [https://mara-testnet.calderachain.xyz/http](https://mara-testnet.calderachain.xyz/http)
+
 
 1. Use Node to run the script
 
@@ -48,6 +50,7 @@ This calculation is complicated by the fact that the major cost is the cost of w
    - `--network`: The network to estimate gas on:
      - `mainnet`: The Optimism mainnet network
      - `goerli`: The Optimism testnet on Goerli
+     - `mara`: The Mara L2 testnet
 
    - `--verify`: Run the transaction to verify the estimate
 
@@ -155,6 +158,7 @@ Addresses for the Greeter contracts:
 
 - [Mainnet](https://explorer.optimism.io/address/0xcf210488dad6da5fe54d260c45253afc3a9e708c#code)
 - [Goerli](https://goerli-explorer.optimism.io/address/0x106941459a8768f5a92b770e280555faf817576f#code)
+- [Mara testnet](https://mara-testnet.calderaexplorer.xyz/address/0xed779aF274a6a6C8d1a67787209549143Be055A9)
 
 
 
